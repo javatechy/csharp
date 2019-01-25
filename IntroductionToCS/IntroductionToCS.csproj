@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dele.Demo\Dele.Demo.csproj" />
+    <ProjectReference Include="..\ProjectA.TeamA\ProjectA.TeamA.csproj" />
+    <ProjectReference Include="..\Properties\Properties.csproj" />
+  </ItemGroup>
+
 </Project>
