@@ -4,23 +4,31 @@ using DEL = Dele.Demo;
 
 using System.Collections.Generic;
 
+using Collections;
+
 namespace IntroductionToCS
 {
     class Program
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("-------------------------------------------List----------------------------------------------");
+            ListTest.Main();
+            Console.WriteLine("-------------------------------------------Dictionary----------------------------------------------");
+            DictionaryTest.Main();
+            Console.WriteLine("-------------------------------------------Delegates----------------------------------------------");
             DEL.DelegateTest.Delegates();
+            Console.WriteLine("----------------------------------------------TypeTesting------------------------------------------");
             TypeTesting();
             CUST.ClassA.Print();
             CallCustomer();
+            Console.WriteLine("----------------------------------------------Inhertience------------------------------------------");
             Inhertience();
+            Console.WriteLine("----------------------------------------------Properties------------------------------------------");
             PropertiesTest();
+           
+            
         }
-
-       
-
-
 
 
         public static void TypeTesting()

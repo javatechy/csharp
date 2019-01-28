@@ -9,6 +9,9 @@
     <ProjectReference Include="..\Dele.Demo\Dele.Demo.csproj" />
     <ProjectReference Include="..\ProjectA.TeamA\ProjectA.TeamA.csproj" />
     <ProjectReference Include="..\Properties\Properties.csproj" />
+    <ProjectReference Include="..\enums\enums.csproj" />
+    <ProjectReference Include="..\Collections\Collections.csproj" />
+    <ProjectReference Include="..\MutitThreading\MutitThreading.csproj" />
   </ItemGroup>
 
 </Project>
